@@ -1,16 +1,16 @@
 import java.util.*;
+
 public class Main {
+    
     public static void main(String[] args) {
-        Scanner scn=new Scanner(System.in);//used to take the input
+         int  a;        
+        int x = Integer.parseInt(args[0]); //first argument at the 0th index  
         
-        System.out.println("Enter the first number:");
-        int x = scn.nextInt(); //reads the input
+        int y = Integer.parseInt(args[1]); //second argument at the 1st index
         
-        System.out.println("Enter the second number:");
-        int y = scn.nextInt(); //reads the input
+        int sum = x + y;//add the above numbers
         
-        int sum = x + y; //add the two numbers
-        System.out.println("Sum is " + sum);
+        System.out.println("Sum is " + sum);//print the sum
     }
 }
 
