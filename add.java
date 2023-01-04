@@ -3,7 +3,7 @@ import java.util.*;
 public class Main {
     
     public static void main(String[] args) {
-         int  a;        
+         int  a, b, c;      
         int x = Integer.parseInt(args[0]); //first argument at the 0th index  
         
         int y = Integer.parseInt(args[1]); //second argument at the 1st index
